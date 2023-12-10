@@ -1,0 +1,94 @@
+.softwareSkills, .technicalSkills {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.softwareTitle {
+    font-size: 65px;
+    -webkit-text-stroke: 2px #000;
+}
+
+.softwareCategories, .technicalCategories {
+    width: 500px;
+    padding-top: 15px;
+}
+
+.softwareCategories div {
+    padding-bottom: 40px;
+}
+
+.softwareCategories span {
+    padding-bottom: 15px;
+    display: block;
+}
+
+.technicalCategories div {
+    display: flex;
+}
+
+.technicalCategories span {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.technicalTitle {
+    font-size: 65px;
+    -webkit-text-stroke: 2px #000;
+}
+
+
+.technicalCategories hr {
+    border: solid 2px var(--black);
+    margin-bottom: 40px;
+    width: 455px;
+}
+
+.xdHtmlBar, .wpAiBar, .wfBar {
+    display: flex;
+}
+
+.greenBar {
+    border-radius: 20px;
+    border: solid 3.5px var(--black);
+}
+
+.blackBar {
+    border-radius: 20px;
+    border: solid 3.5px var(--green);
+}
+
+.xdHtmlBar .greenBar {
+    width: 30px;
+}
+
+.xdHtmlBar .blackBar {
+    width: 450px;
+}
+
+.wpAiBar .greenBar {
+    width: 140px;
+}
+
+.wpAiBar .blackBar {
+    width: 340px;
+}
+
+.wfBar .greenBar {
+    width: 100px;
+}
+
+.wfBar .blackBar {
+    width: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+

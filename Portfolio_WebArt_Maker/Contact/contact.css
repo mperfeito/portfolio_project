@@ -1,0 +1,96 @@
+.contactTitle {
+    font-size: 65px;
+    -webkit-text-stroke: 2px #000;
+    padding: 70px;
+    text-align: center;
+    display: block;
+}
+
+/*
+.form {
+    display: flex;
+    width: 1300px;
+    height: 450px;
+    background-color: var(--darkGrey);
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+*/
+
+.formLine {
+    display: flex;
+}
+
+input {
+    width: 400px;
+    margin-bottom: 40px;
+    background-color: transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+
+.formInfo {
+    align-self: center;
+    margin-left: 40px;
+    margin-bottom: 35px;
+}
+
+.inputs {
+    margin-right: 40px;
+    align-self: center;
+}
+
+.formBar {
+    height: 300px;
+    align-self: center;
+    border: solid 0.5px var(--lightGrey);
+}
+
+label {
+    padding-bottom: 0.5px;
+    display: block;
+}
+
+#username, #userphone {
+    margin-right: 40px;
+}
+
+.formTitle {
+    font-size: 25px;
+    -webkit-text-stroke: 1px var(--white);
+}
+
+.inputs label {
+    -webkit-text-stroke: 1px var(--lightGrey);
+}
+
+.formText {
+    -webkit-text-stroke: 1px var(--white);
+    margin-bottom: 45px;
+}
+
+.formIcon {
+    padding-right: 20px;
+    width: 30px;
+}
+
+.formImg {
+    width: 100%;
+    
+}
+
+.form {
+    display: flex;
+    width: 100%; /* Take up the full width of the container */
+    max-width: 1300px; /* Limit maximum width for larger screens */
+    height: 450px;
+    background-color: var(--darkGrey);
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+
+    /* Optional: Add padding and adjust other styles as needed */
+    padding: 20px;
+}

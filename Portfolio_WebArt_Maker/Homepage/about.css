@@ -1,0 +1,67 @@
+.aboutTitle {
+    display: block;
+    text-align: center;
+    padding:60px;
+    font-size: 65px;
+    -webkit-text-stroke: 2px #000;
+}
+
+.aboutMainContent {
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.aboutBox {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px var(--black);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.aboutIcon {
+    width: 30px;
+}
+
+.uiuxIcon {
+    width: 25px;
+}
+
+.feedBackBox {
+    padding: 20px;
+    background-color: var(--green);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.requestTitle {
+    -webkit-text-stroke: 1px var(--white);
+}
+
+.requestText {
+    line-height: 30px;
+}
+
+.feedBackButton {
+    -webkit-text-stroke: 1px var(--green);
+    background-color: var(--black);
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    border: transparent;
+    color: var(--green);
+}
+
+.feedBackAnchor {
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+
+
